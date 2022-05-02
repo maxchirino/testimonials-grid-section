@@ -4,7 +4,7 @@
   --clr-primary3: hsl(219, 29%, 14%);
   --clr-white: hsl(0, 0%, 100%);
   --clr-light-gray: hsl(0, 0%, 81%);
-  --light-grayish-blue: hsl(210, 46%, 95%);
+  --clr-light-grayish-blue: hsl(210, 46%, 95%);
   --font-body: 'Barlow Semi Condensed', sans-serif;
 }
 
@@ -28,7 +28,7 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   font-family: var(--font-body);
-  background-color: var(--clr-light-gray);
+  background-color: var(--clr-light-grayish-blue);
   font-size: 15px;
 }
 
@@ -157,7 +157,7 @@ p {
 .purple>p,
 .dark-gray>p,
 .black>p {
-  color: var(--light-grayish-blue);
+  color: var(--clr-light-grayish-blue);
 }
 
 .purple .testimonial-author .author-info p,
